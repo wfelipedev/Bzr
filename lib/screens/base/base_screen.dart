@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:bzr/blocs/drawer_bloc.dart';
+import 'package:bzr/screens/account/account_screen.dart';
 import 'package:bzr/screens/home/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -51,9 +52,7 @@ class _BaseScreenState extends State<BaseScreen> {
           Container(
             color: Colors.redAccent,
           ),
-          Container(
-            color: Colors.blueAccent,
-          ),
+          AccountScreen(),
         ],
       ),
     );

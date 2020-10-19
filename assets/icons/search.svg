@@ -1,0 +1,14 @@
+<svg width="22.414" height="22.414" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="2.61156" height="2.61156" id="canvas_background" fill="none"/>
+ </g>
+
+ <g>
+  <title>Layer 1</title>
+  <g id="Icon_feather-search">
+   <path id="Path_1" d="m19.70755,10.29a9.315,9.315 0 1 1 -9.316,-9.315a9.315,9.315 0 0 1 9.316,9.315z" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+   <path id="Path_2" d="m21,21l-4.106,-4.106" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+ </g>
+</svg>

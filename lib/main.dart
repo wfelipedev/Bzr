@@ -1,4 +1,6 @@
 import 'package:bzr/blocs/drawer_bloc.dart';
+import 'package:bzr/blocs/home_bloc.dart';
+import 'package:bzr/constants.dart';
 import 'package:bzr/screens/base/base_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -16,14 +18,19 @@ class MyApp extends StatelessWidget {
         Provider<DrawerBloc>(
           create: (_) => DrawerBloc(),
           dispose: (context, value) => value.dispose(),
+        ),
+        Provider<HomeBloc>(
+          create: (_) => HomeBloc(),
+          dispose: (context, value) => value.dispose(),
         )
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Bzr',
         theme: ThemeData(
-          primaryColor: Color.fromRGBO(145, 105, 255, 1),
+          primaryColor: kPrimaryColor,
           visualDensity: VisualDensity.adaptivePlatformDensity,
+          fontFamily: 'Poppins',
         ),
         home: BaseScreen(),
       ),

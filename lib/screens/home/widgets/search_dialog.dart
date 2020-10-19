@@ -18,9 +18,6 @@ class _SearchDialogState extends State<SearchDialog> {
     return Stack(
       children: <Widget>[
         Positioned(
-          top: 2,
-          left: 2,
-          right: 2,
           child: Card(
             child: TextField(
               controller: _controller,

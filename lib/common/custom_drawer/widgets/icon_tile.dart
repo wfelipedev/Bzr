@@ -1,3 +1,4 @@
+import 'package:bzr/constants.dart';
 import 'package:flutter/material.dart';
 
 class IconTile extends StatelessWidget {
@@ -16,12 +17,12 @@ class IconTile extends StatelessWidget {
         style: TextStyle(
           fontWeight: FontWeight.w500,
           letterSpacing: .8,
-          color: highlighted ? Theme.of(context).primaryColor : Colors.black,
+          color: highlighted ? kPrimaryColor : Colors.black,
         ),
       ),
       leading: Icon(
         iconData,
-        color: highlighted ? Theme.of(context).primaryColor : Colors.black,
+        color: highlighted ? kPrimaryColor : Colors.black,
       ),
       onTap: onTap,
       contentPadding: const EdgeInsets.fromLTRB(20, 0, 10, 0),

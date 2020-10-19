@@ -1,7 +1,8 @@
 import 'package:rxdart/rxdart.dart';
 
 class DrawerBloc {
-  final BehaviorSubject<int> _pageController = BehaviorSubject<int>.seeded(0);
+  final BehaviorSubject<int> _pageController =
+      BehaviorSubject<int>.seeded(0); // initial page 0 = Anúncios
   Stream<int> get outPage => _pageController.stream;
   int _page = 0;
 

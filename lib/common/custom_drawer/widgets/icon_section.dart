@@ -1,4 +1,3 @@
-import 'package:ant_icons/ant_icons.dart';
 import 'package:bzr/blocs/drawer_bloc.dart';
 import 'package:bzr/common/custom_drawer/widgets/icon_tile.dart';
 import 'package:flutter/material.dart';

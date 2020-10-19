@@ -52,6 +52,7 @@ dependencies:
   location_permissions: ^2.0.3
   dio: ^3.0.7
   ant_icons: ^1.0.0
+  flutter_svg: ^0.18.0
 
   # Habilitar somente quando for solicitado!
   # flutter_facebook_login: ^3.0.0
@@ -77,7 +78,7 @@ flutter:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
   assets:
-    - images/
+    - assets/icons/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -90,10 +91,11 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: fonts/Nunito-ExtraBold.ttf
+        - asset: fonts/Nunito-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
